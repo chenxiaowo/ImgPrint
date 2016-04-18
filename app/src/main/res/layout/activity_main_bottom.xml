@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#858585"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/ll_tab_btm1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_btm1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/find" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:textSize="8sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+ <LinearLayout
+        android:id="@+id/ll_tab_btm2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_btm2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/classify" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:textSize="8sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+ <LinearLayout
+        android:id="@+id/ll_tab_btm3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_btm3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/community" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="社区"
+            android:textSize="8sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+ <!--<LinearLayout-->
+        <!--android:id="@+id/ll_tab_btm4"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/img_btm4"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="#0000"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:src="@drawable/more" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="测试"-->
+            <!--android:textSize="8sp"-->
+            <!--android:textColor="#ffffff" />-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

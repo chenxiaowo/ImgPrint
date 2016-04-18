@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#858585"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/tab_1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_tob_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_tob_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/img_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tab_tob_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_opendrawer"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/img_drawer"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:background="#0000"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:src="@drawable/drawer_img2" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="测试"-->
+            <!--android:textColor="#ffffff" />-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
